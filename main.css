@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+	/* background-color: purple; */
+	/* background-color: #ff0080; */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightsalmon;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo img {
+    height: 50px;
+    padding: 10px;
+}
+
+.nav-links {
+    display: flex;
+	margin-right: 50px;
+}
+
+.nav-links a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	font-size: 20px;
+}
+
+.nav-links a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 20px; */
+	background-image: url("images/equity.jpg");
+	background-repeat: no-repeat;
+	height: 600px;
+	width: 100%;
+}
+
+.info {
+    flex: 1;
+    margin-right: 20px;
+	/* margin-top: -400px; */
+	/* margin: 100px; */
+	/* margin: -400px 150px 0px; */
+	margin: 60px 100px;
+	margin-bottom: -100px;
+}
+
+.info h2 {
+    font-size: 34px;
+    color: #333;
+	font-family: serif;
+}
+
+.info p {
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.photo {
+    flex: 1;
+}
+
+.photo img {
+    width: 90%;
+    border-radius: 30%;
+	padding-left: 10%;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+.container{
+	display: flex;
+	flex-direction: row;
+	margin-top: 100px;
+	justify-content: space-between;
+	text-align: center;
+
+}
+.content{
+	display: flex;
+	width: 30%;
+	height: 250px;
+	border: 2px solid black;
+	margin: 30px;
+	border-radius: 25px;
+	box-shadow: 0  0px 10px black;
+	cursor: pointer;
+
+}
+.content:hover{
+	transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+.factors{
+
+	text-align: center;
+	margin-bottom: -100px;
+}
+.income{
+	background-image: url(images/income.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 250px;
+}
+.gender{
+	background-image: url(images/gender.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 250px;
+}
+.education{
+	background-image: url(images/education.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 250px;
+}
+.details{
+		background: rgba(0, 0, 0, 0.622);
+		margin-top: 200px;
+		border-bottom-left-radius: 24px;
+		border-bottom-right-radius: 24px;
+		font-size: 20px;
+		font-family: Inter;
+		padding-left: 15px;
+		height: 50px;
+		width: 100%;
+}
+/* details a{
+	text-decoration: none;
+	font-size: 100px;
+} */
+
+h3{
+	color: white;
+	text-decoration: none;
+}
+frame{
+	width: 100%;
+}
